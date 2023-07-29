@@ -31,7 +31,7 @@ namespace CPR_Roller
         private GoogleCredential GetCredentialsFromFile()
         {
             GoogleCredential credential;
-            using (var stream = new FileStream("cprroller-0ea7547026a8.json", FileMode.Open, FileAccess.Read))
+            using (var stream = new FileStream("cprroller-eeacf5ab2933", FileMode.Open, FileAccess.Read))
             {
                 credential = GoogleCredential.FromStream(stream).CreateScoped(Scopes);
             }

@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/cprroller-eeacf5ab2933.json
+cprroller-0ea7547026a8.json
